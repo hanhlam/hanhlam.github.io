@@ -58,7 +58,7 @@
       transform: translateY(-3px); /* account for the height of the clock hands */
     }
 
-    .second-hand {
+    .hand {
       width: 50%;
       height: 6px;
       background: red;
@@ -82,18 +82,14 @@
       transition-timing-function: cubic-bezier(0.61, 0.14, 0.25, 1.79);
     }
 
-    .hour-hand {
-      width: 25%;
-      height: 6px;
-      background: black;
-      position: absolute;
-      top: 50%;
-      transform-origin: 100%;
-      transform: rotate(90deg);
-      transition: all 0.05s;
-      transition-timing-function: cubic-bezier(0.61, 0.14, 0.25, 1.79);
+    .second-hand {
+      background: red;
     }
-
+    
+    .hour-hand {
+      width: 30%;
+      left: 20%;
+    }
 
 
     }
